@@ -28,8 +28,8 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
 
-    if @article.update(article_params)
-      redirect_to @article
+    if @user.update(user_params)
+      redirect_to @user
     else
       render :edit
     end
