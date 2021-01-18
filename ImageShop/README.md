@@ -4,7 +4,7 @@ Rails version 6.1
 
 Requires active storage.
 
-This application has image upload functionality.
+This application has image upload, download, and delete functionalities.
 Images are separated by user.
 
 Simply go to ImageShop folder.
