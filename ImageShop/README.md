@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails version 6.1
 
-Things you may want to cover:
+Requires active storage.
 
-* Ruby version
+This application has image upload functionality.
+Images are separated by user.
 
-* System dependencies
+Simply go to ImageShop folder.
+In the command line, run:
+> bin/rails server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Have fun!
