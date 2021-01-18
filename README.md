@@ -6,7 +6,7 @@ The application is built on Rails version 6.1
 
 It utilizes Active Storage.
 
-It has image upload functionality.
+It has image upload, download, and delete functionalities.
 
 Simply go to the ImageShop folder.
 
