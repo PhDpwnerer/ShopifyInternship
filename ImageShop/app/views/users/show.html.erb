@@ -3,8 +3,8 @@
 <div>
   <% @user.images.each do |image| %>
   	<%= image_tag image %>
-  	<%= link_to "download", rails_blob_path(image, disposition: 'attachment') %>
-  	<%= link_to 'Remove', image.purge,
+  	<%= link_to "Download", rails_blob_path(image, disposition: 'attachment') %>
+  	<%= link_to 'Remove', delete_image_user_url(image.id),
                 method: :delete,
                 data: { confirm: 'Are you sure?' } %>
   <% end %>
